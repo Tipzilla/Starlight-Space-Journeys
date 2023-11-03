@@ -1,3 +1,7 @@
+// Get the current year and set it as the text content of an element with the id "copyright-year"
+const currentYear = new Date().getFullYear();
+document.getElementById("copyright-year").textContent = currentYear;
+
 // js for drop down menu when screen width is < 800px
 
 var MenuItems = document.getElementById("MenuItems");
